@@ -12,14 +12,16 @@
 	<div class="top">
 		<img width="80px" src="https://i.imgur.com/Ie91Itx.png">
 		<h1>turn ideas into {code}</h1>
-		<p>Hello. Im vidy, real name is Artem Poteryaev, based in Novosibirsk (Russia). I can create anything just for you and your project.</p>
+		<p>Hello. Im vidy, legal name is Artem Poteryaev, based in Novosibirsk (Russia). I can create anything just for you and your project.</p>
 	</div>
 	<div class="center">
-		<h2 class="text" style="text-align: center;">what you can recieve:</h2>
-		<ul style="color: white;">
+		<h2 class="text" style="font-size: 50px;">what you can recieve:</h2>
+		<ul style="color: white;font-size: 30px;text-align: right;margin-right: 15%">
 			<li>a python program</li>
+			<p></p>
 			<li>a c++ program</li>
-			<li>website</li>
+			<p></p>
+			<li>a website</li>
 		</ul>
 	</div>
 </body>
@@ -27,6 +29,9 @@
 	@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 	body {
 		background-color: #282828;
+	}
+	* {
+		font-family: "JetBrains Mono", monospace;
 	}
 	.top {
 		margin-left: 10%;
@@ -36,14 +41,14 @@
 		color: white;
 		font-family: "JetBrains Mono", monospace;
 		font-weight: 700;
-		font-size: 80px;
 	}
 	h1 {
-		padding-top: 11%;
+		padding-top: 15%;
+		font-size: 80px;
 	}
 	p {
 		margin-top: 0;
-		font-size: 25px;
+		font-size: 30px;
 		width: 80%;
 		font-weight: 400;
 	}
@@ -54,6 +59,20 @@
 	.center {
 		text-align: center;
 		color: white;
-		margin-top: 50%;
+		margin-top: 25%;
+	}
+	ul {
+  		list-style: none;
+	}
+	@media screen and (max-width: 1280px) {
+		p {
+			padding-top: 10vh;
+		}
+		h1 {
+			font-size: 15vw;
+		}
+		ul { 
+			margin-right: 3vw; 
+		}
 	}
 </style>
